@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import { srConfig, email } from '@config';
+import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
@@ -60,11 +60,11 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I love talking to new people! You can always reach me via my email or use the 
-        link below to book a call with me! 
+        I love talking to new people! You can always reach me via my email or use the link below to
+        book a call with me!
       </p>
 
-      <a className="email-link" href='https://calendly.com/donnylu'>
+      <a className="email-link" href="https://calendly.com/donnylu">
         Chat with me!
       </a>
     </StyledContactSection>
