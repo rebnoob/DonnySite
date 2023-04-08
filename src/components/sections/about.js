@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['JavaScript', 'Python', 'React', 'Circuit Pythob', 'Pandas', 'Arduino'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Donny Lu. I am a PPE (Philosophy, Politics, and Economics) student
+              at Pomona College, and a tech entrepreneur who is interested in developing NLP and
+              hard tech to solve the most challenging problems in the world.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              I have a strong interest in technology and its potential to change the world and I am
+              passionate about using my skills to make a difference in the world and to help others.
+              I have worked on serval project spanning from Fintech automation to developing
+              hard-tech products.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Since my early days as a student entrepreneur at Pomona College, I have gained
+              valuable experience in diverse settings. This includes working as a Executive Office
+              intern in <a href="https://democraticleader.house.gov">Congress</a>,{' '}
+              <a href="https://www.linkedin.com/company/nxtequity/">founding my own startup</a>, and{' '}
+              <a href="https://www.intro.vc/">contributing to other startup</a>.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +167,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="https://media.licdn.com/dms/image/D5603AQHCzvvDTyZ5Ug/profile-displayphoto-shrink_400_400/0/1679542633276?e=1686182400&v=beta&t=3CqwFE1oAE4gNA442hVefi9himcNu9yUyQSUXHfIVls"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
