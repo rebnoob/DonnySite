@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
-    background-color: var(--lightest-navy);
+    background-color: #03045e;
     color: var(--lightest-slate);
   }
 
@@ -53,7 +53,7 @@ const GlobalStyle = createGlobalStyle`
   /* Scrollbar Styles */
   html {
     scrollbar-width: thin;
-    scrollbar-color: var(--dark-slate) var(--navy);
+    scrollbar-color: #03045e;
   }
   ::-webkit-scrollbar {
     width: 12px;
@@ -62,7 +62,7 @@ const GlobalStyle = createGlobalStyle`
     background: var(--navy);
   }
   ::-webkit-scrollbar-thumb {
-    background-color: var(--dark-slate);
+    background-color: #03045e;
     border: 3px solid var(--navy);
     border-radius: 10px;
   }
@@ -74,8 +74,8 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--navy);
-    color: var(--slate);
+    background-color: #03045e;
+    color: #caf0f8;
     font-family: var(--font-sans);
     font-size: var(--fz-xl);
     line-height: 1.3;
@@ -92,7 +92,7 @@ const GlobalStyle = createGlobalStyle`
       overflow: hidden;
 
       header {
-        background-color: transparent;
+        background-color: #03045e;
       }
 
       #content > * {
@@ -213,7 +213,7 @@ const GlobalStyle = createGlobalStyle`
       width: 300px;
       height: 1px;
       margin-left: 20px;
-      background-color: var(--lightest-navy);
+      background-color: #03045e;
 
       @media (max-width: 1080px) {
         width: 200px;
@@ -303,7 +303,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     & > code {
-      background-color: var(--light-navy);
+      background-color: #03045e;
       color: var(--white);
       font-size: var(--fz-sm);
       border-radius: var(--border-radius);

@@ -1,13 +1,15 @@
 ---
 date: '1'
 title: 'Email Hunter'
-cover: './course-card.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+cover: './NxtEquity.png'
+external: 'https://www.linkedin.com/company/nxtequity/'
+cta: 'https://www.linkedin.com/company/nxtequity/'
 tech:
-  - Python
-  - Pandas
-  - Selenium
+  - JavaScript
+  - React js
+  - MUI
+  - Google Firebase
+  - Azure
 ---
 
-I developed an email crawler that can search for and gather email addresses by looping through an Excel file and performing a Google search. This tool is particularly useful for the office, as they often need to collect email addresses for specific projects or purposes.
+NxtEquity's website is designed with ReactJS, MUI, and Firebase, providing cutting-edge financial analytics services that use AI to increase productivity and efficiency in the financial industry. 

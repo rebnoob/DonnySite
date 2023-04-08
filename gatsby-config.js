@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Donny Lu',
     description: 'Donny Lu is a student entrepreneur at Pomona College',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://rebnoob.github.io/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@rebnoob',
   },
