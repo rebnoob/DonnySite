@@ -3,6 +3,7 @@ date: '3'
 title: 'Congressional Hearing Automation'
 github: 'https://github.com/bchiang7/halcyon-site'
 external: 'https://halcyon-theme.netlify.com/'
+cover: ''
 tech:
   - Python
   - Pandas

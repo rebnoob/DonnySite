@@ -2,7 +2,6 @@
 date: '2'
 title: 'Press Release Ninja'
 external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
 tech:
   - Python
   - Pandas
